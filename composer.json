@@ -7,7 +7,8 @@
         "symfony/validator": "^6.4 || ^7.0",
         "symfony/http-kernel": "^6.4 || ^7.0",
         "symfony/config": "^6.4 || ^7.0",
-        "symfony/dependency-injection": "^6.4 || ^7.0"
+        "symfony/dependency-injection": "^6.4 || ^7.0",
+        "guzzlehttp/guzzle": "^7.9"
     },
     "require-dev": {
         "symfony/phpunit-bridge": "^6.4 || ^7.0"
@@ -15,12 +16,12 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Symflow\\SymflowBundle\\": "src/"
+            "Vandetho\\SymflowBundle\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Symflow\\SymflowBundle\\Tests\\": "tests/"
+            "Vandetho\\SymflowBundle\\Tests\\": "tests/"
         }
     }
 }
