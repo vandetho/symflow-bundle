@@ -1,1 +1,7 @@
 .idea
+.php-cs-fixer.php
+.php-cs-fixer.cache
+composer.lock
+phpunit.xml
+vendor/
+.phpunit.result.cache
